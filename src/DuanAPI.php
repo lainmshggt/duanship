@@ -96,10 +96,10 @@ class DuanAPI
             'preParse' => $this->preParse
         ], $headers);
         // 可能是请求密钥出错
-        if (isset($resp->message)) {
+        if (isset($resp["message"])) {
             return [
                 'code' => 150,
-                'msg' => $resp->message
+                'msg' => $resp["message"]
             ];
         }
         return $resp;
