@@ -3,7 +3,6 @@
     "description": "Short video remove watermark",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0"
     },
