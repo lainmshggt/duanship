@@ -1,6 +1,6 @@
 <?php
 
-namespace leavebn\duanship;
+namespace Leavebn\Duanship;
 
 /**
  * 用于短视频去水印的库

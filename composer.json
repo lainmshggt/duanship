@@ -1,0 +1,15 @@
+{
+    "name": "leavebn/duanship",
+    "description": "Short video remove watermark",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Leavebn\\Duanship\\": "src/"
+        }
+    }
+}
