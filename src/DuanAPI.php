@@ -69,7 +69,7 @@ class DuanAPI
             throw new \Exception(curl_error($ch));
         } else { 
             curl_close($ch); 
-            return json_decode($data);
+            return json_decode($data, true);
         } 
     }
 
