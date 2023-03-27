@@ -1,15 +1,1 @@
-{
-    "name": "leavebn/duanship",
-    "description": "Short video remove watermark",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.0"
-    },
-    "autoload": {
-        "psr-4": {
-          "Leavebn\\Duanship\\": "src/"
-        }
-    }
-}
+![日落图片](https://source.unsplash.com/1280x720/?sunset)
